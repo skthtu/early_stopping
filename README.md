@@ -9,3 +9,7 @@
     es( valid_loss, model, model_path= "model_path") #esを呼び出しEarlyStoppingするか確認
     if es.early_stop: #もし停止フラグが立っているなら停止
       break
+
+
+#### References
+[Feed back Price 2021 1st Solution](https://www.kaggle.com/code/wht1996/feedback-nn-train/notebook )
