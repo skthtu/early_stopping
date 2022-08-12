@@ -4,8 +4,8 @@
 
     from early_stopping import *
 
-    es = early_stopping( 引数についてはpythonファイル内を参照 )
+    es = early_stopping( 引数についてはpythonファイル内を参照 ) #インスタンスの作成
 
-    es( valid_loss, model, model_path= "model_path")
-    if es.early_stop:
+    es( valid_loss, model, model_path= "model_path") #esを呼び出しEarlyStoppingするか確認
+    if es.early_stop: #もし停止フラグが立っているなら停止
       break
