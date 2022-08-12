@@ -41,3 +41,4 @@ class EarlyStopping:
         if self.model_path is not None and self.best_model is not None:
             torch.save(self.best_model.state_dict(), self.model_path.replace('model_es','model_es_epoch_'+str(self.epoch)))
             print('model saved at: ',self.model_path.replace('model_es','model_es_epoch_'+str(self.epoch)))
+            
