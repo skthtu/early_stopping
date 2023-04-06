@@ -1,4 +1,4 @@
-# code from https://www.kaggle.com/code/wht1996/feedback-nn-train/notebook
+#ref:https://www.kaggle.com/code/wht1996/feedback-nn-train/notebook
 
 import numpy as np
 import torch
